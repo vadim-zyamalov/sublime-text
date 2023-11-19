@@ -1,0 +1,32 @@
+[
+	{
+		"keys": ["ctrl+alt+enter"],
+		"command": "replace_all",
+		"args": {"close_panel": false},
+		"context": [{"key": "panel", "operand": "replace"}, {"key": "panel_has_focus"}]
+	},
+	{
+		"keys": ["shift+up"],
+		"command": "lsp_signature_help_navigate",
+		"args": {"forward": false},
+		"context": [{"key": "lsp.signature_help_multiple_choices_available"}]
+	},
+	{
+		"keys": ["shift+down"],
+		"command": "lsp_signature_help_navigate",
+		"args": {"forward": true},
+		"context": [{"key": "lsp.signature_help_multiple_choices_available"}]
+	},
+	{
+		"keys": ["up"],
+		"command": "move",
+		"args": {"by": "lines", "forward": false},
+		"context": [{"key": "lsp.signature_help_multiple_choices_available"}],
+	},
+	{
+		"keys": ["down"],
+		"command": "move",
+		"args": {"by": "lines", "forward": true},
+		"context": [{"key": "lsp.signature_help_multiple_choices_available"}],
+	}
+]
