@@ -12,7 +12,7 @@
 		}
 	],
 	"detect_indentation": false,
-	"color_scheme": "One Dark.sublime-color-scheme",
+	"color_scheme": "Catppuccin Mocha.sublime-color-scheme",
 	"font_face": "JetBrains Mono",
 	"font_size": 11,
 	"ignored_packages":
@@ -26,4 +26,5 @@
 	"ensure_single_trailing_newline": true,
 	"ignore_whitespace_only_lines": false,
 	"ignore_whitespace_on_current_line": false,
+	"index_files": false,
 }

@@ -28,5 +28,14 @@
 		"command": "move",
 		"args": {"by": "lines", "forward": true},
 		"context": [{"key": "lsp.signature_help_multiple_choices_available"}],
-	}
+	},
+	{
+       "keys": ["alt+1"],
+       "command": "toggle_terminus_panel",
+       "args": {
+           "cmd": "pwsh",
+           "cwd": "${file_path:${folder}}",
+           "panel_name": "Terminus"
+       }
+   }
 ]
