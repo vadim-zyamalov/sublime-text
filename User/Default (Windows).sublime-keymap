@@ -30,6 +30,11 @@
 		"context": [{"key": "lsp.signature_help_multiple_choices_available"}],
 	},
 	{
+        "keys": ["f2"],
+        "command": "lsp_symbol_rename",
+        "context": [{"key": "lsp.session_with_capability", "operand": "renameProvider"}]
+    },
+	{
        "keys": ["alt+1"],
        "command": "toggle_terminus_panel",
        "args": {

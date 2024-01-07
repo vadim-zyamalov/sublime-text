@@ -27,4 +27,5 @@
 	"ignore_whitespace_only_lines": false,
 	"ignore_whitespace_on_current_line": false,
 	"index_files": false,
+	"show_definitions": false
 }
