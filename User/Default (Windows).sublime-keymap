@@ -34,6 +34,11 @@
         "command": "lsp_symbol_rename",
         "context": [{"key": "lsp.session_with_capability", "operand": "renameProvider"}]
     },
+    {
+    	"keys": ["f1"],
+    	"command": "lsp_signature_help",
+    	"context": [{"key": "lsp.signature_help_available", "operand": "signatureHelpProvider"}]
+    },
 	{
        "keys": ["alt+1"],
        "command": "toggle_terminus_panel",

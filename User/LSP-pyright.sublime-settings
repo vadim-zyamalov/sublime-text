@@ -2,6 +2,9 @@
 
 {
 	"disabled_capabilities": {
-		"signatureHelpProvider": true
+		"signatureHelpProvider": {
+			"triggerCharacters": true,
+			"retriggerCharacters": true
+		}
     }
 }
