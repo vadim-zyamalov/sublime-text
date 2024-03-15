@@ -13,7 +13,7 @@
 	],
 	"detect_indentation": false,
 	"color_scheme": "Catppuccin Mocha.sublime-color-scheme",
-	"font_face": "JetBrains Mono",
+	"font_face": "Fira Code",
 	"font_size": 11,
 	"ignored_packages":
 	[
